@@ -74,12 +74,14 @@ body {
   color: hsl(228deg, 12%, 48%);
 }
 .container .text button {
+  display: block;
   background-color: hsl(158deg, 36%, 37%);
   color: hsl(0deg, 0%, 100%);
   border: none;
-  padding: 16px 70px;
+  padding: 16px 0;
   border-radius: 8px;
   margin-top: 30px;
+  width: 236px;
 }
 .container .text button:hover {
   cursor: pointer;
@@ -125,8 +127,8 @@ footer .attribution a {
     margin-top: 24px;
   }
   .container .text button {
-    padding: 16px 100px;
     margin-top: 20px;
+    width: 295px;
   }
 }
 

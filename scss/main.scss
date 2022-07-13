@@ -84,12 +84,14 @@ body {
         }
 
         button {
+            display: block;
             background-color: $dark_cyan;
             color: $white;
             border: none;
-            padding: 16px 70px;
+            padding: 16px 0;
             border-radius: 8px;
             margin-top: 30px;
+            width: 236px;
 
             &:hover {
                 cursor: pointer;
@@ -145,9 +147,8 @@ footer {
             }
 
             button {
-                padding: 16px 100px;
                 margin-top: 20px;
-
+                width: 295px;
             }
         }
     }
